@@ -106,7 +106,7 @@ jobs:
         ./scripts/feeds install -d y -p istore luci-app-store
         echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
         ./scripts/feeds update helloworld
-        ./scripts/feeds install -a -f -p helloworld
+        ./scripts/feeds install -a -f -p helloworld shadowsocksr-libev
         ./scripts/feeds update -a
         ./scripts/feeds install -a
   
